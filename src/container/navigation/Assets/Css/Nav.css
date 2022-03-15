@@ -1,0 +1,61 @@
+.navigation-main {
+    width: 100vw;
+    height: 6.2vw;
+    position: fixed;
+    background-color: #121212;
+}
+
+.navigation-inside {
+    margin: 0.5vw;
+    width: 97.6vw;
+    height: 5vw;
+    display: flex;
+}
+
+.navigation-logo-pic {
+    margin: 0 1vw;
+    width: 5vw;
+}
+
+.navigation-button {
+    width: 85vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navigation-button-input {
+    font-size: 1.4vw;
+    margin: 3vw;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.navigation-button-input:hover {
+    color: #F1CD6C;
+    transition: 0.25s;
+}
+
+.navigation-search-main {
+    width: 3vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bi-cart2,
+.bi-search {
+    margin: 0 1vw;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.bi-cart2:hover,
+.bi-search:hover {
+    transition: 0.25s;
+    color: #F1CD6C;
+    cursor: pointer;
+}
