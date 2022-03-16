@@ -3,7 +3,21 @@
     height: 6.5vw;
     position: fixed;
     background-color: #121212;
-    border-bottom: 1px solid #F1CD6C;
+    border-bottom: 0.15vw solid #F1CD6C;
+    /* background-size: 400% 400%;
+    background-image: linear-gradient(
+     -45deg,
+      #fc6c8f,
+      #ff2ced,
+      #ffb86c,
+      #2cccff,
+      #20e3b2,
+      #ffcc70,
+      #c850c0,
+      #4158d0
+    );
+
+    animation: gradient 5s ease alternate infinite; */
 }
 
 .navigation-inside {
@@ -60,3 +74,15 @@
     color: #F1CD6C;
     cursor: pointer;
 }
+
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */

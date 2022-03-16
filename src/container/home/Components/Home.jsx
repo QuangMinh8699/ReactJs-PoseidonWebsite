@@ -1,13 +1,13 @@
 import React from 'react'
 import '../Assets/Css/Home.css'
-import Nvidia3000 from '../Assets/Images/nvidia-rtx-3000.png'
+import HomeHeader from './HomeHeader'
+import HomeNewProducts from './HomeNewProducts'
 
 function Home() {
   return (
     <div className='home-main'>
-      <div className="home-header">
-        <img className='home-header-pic' src={Nvidia3000} alt="" />
-      </div>
+      <HomeHeader />
+      <HomeNewProducts />
     </div>
   )
 }

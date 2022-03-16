@@ -1,0 +1,85 @@
+.home-new-products-main {
+    width: 100%;
+    height: 39vw;
+    background-color: #121212;
+    padding: 2.4vw;
+}
+
+.home-new-products {
+    width: 100%;
+    height: 25vw;
+    /* background-color: aliceblue; */
+}
+
+.home-new-products-header {
+    width: 100%;
+    height: 4vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-new-products-title {
+    border-bottom: 0.15vw solid #F1CD6C;
+    font-size: 1.4vw;
+    color: #F1CD6C;
+}
+
+.home-new-products-view-all {
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s;    
+}
+
+.home-new-products-view-all:hover {
+    transition: 0.25s;    
+    color: #F1CD6C;
+}
+
+.home-new-products-content {
+    margin: 1vw 0;
+    width: 100%;
+    height: 28vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-new-products-content-product {
+    width: 21.8vw;
+    height: 28vw;
+    border: 0.15vw solid #F1CD6C;
+    text-decoration: none;
+}
+
+.home-new-rtx3080 {
+    width: 21.5vw;
+    border-bottom: 0.15vw solid #F1CD6C;
+}
+
+.home-new-title {
+    display: flex;
+    width: 100%;
+
+}
+
+.home-new-title-p {
+    font-size: 1.4vw;
+    color: #F1CD6C;
+    margin: 1vw;
+}
+
+.home-new-product-detail {
+    width: 100%;
+    height: 11.3vw;
+    list-style: none;
+}
+
+.home-new-product-detail li {
+    margin: 0 -1vw;
+    font-size: 1vw;
+    line-height: 2vw;
+    color: #fff;
+}
+

@@ -19,7 +19,8 @@
 } 
 
 ::-webkit-scrollbar-thumb {
-  background-color: #F1CD6C;
+  /* background-color: #F1CD6C; */
+  background: linear-gradient(to top ,#F1CD6C, #EDD185);
 }
 
 ::-webkit-scrollbar-track {
