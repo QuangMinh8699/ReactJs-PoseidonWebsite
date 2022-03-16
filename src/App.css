@@ -10,7 +10,7 @@
 .app-content {
   position: absolute;
   z-index: -100;
-  top: 6.2vw;
+  top: 6.5vw;
 }
 
 ::-webkit-scrollbar {
