@@ -1,8 +1,9 @@
 .navigation-main {
     width: 100vw;
-    height: 6.2vw;
+    height: 6.5vw;
     position: fixed;
     background-color: #121212;
+    border-bottom: 1px solid #F1CD6C;
 }
 
 .navigation-inside {
