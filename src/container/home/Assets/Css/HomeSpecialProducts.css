@@ -1,0 +1,112 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.home-special-products-main {
+    width: 100%;
+    height: 39vw;
+    background-color: #121212;
+    padding: 2.4vw;
+}
+
+.home-special-products {
+    width: 100%;
+    height: 32vw;
+}
+
+.home-special-products-header {
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-special-products-header-title {
+    font-size: 1.4vw;
+    color: #F1CD6C;
+    border-bottom: 0.15vw solid #F1CD6C;
+    cursor: context-menu;
+}
+
+.home-special-products-view-all {
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s; 
+}
+
+.home-special-products-view-all:hover {
+    transition: 0.25s;    
+    color: #F1CD6C;
+}
+
+.home-special-products-content {
+    margin: 1vw 0;
+    width: 100%;
+    height: 28vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-special-products-content-product {
+    width: 21.8vw;
+    height: 28vw;
+    text-decoration: none;
+    padding: 0.15vw;
+    background-size: 400% 400%;
+    background-image: linear-gradient(
+     -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+    );
+
+    animation: gradient 5s ease alternate infinite;
+}
+
+.home-special-rtx3080 {
+    width: 21.5vw;
+    margin: 0 0 0.15vw 0;
+}
+
+.home-special-title {
+    display: flex;
+    width: 100%;
+    background-color: #121212;
+}
+
+.home-special-title-p {
+    font-size: 1.4vw;
+    color: #F1CD6C;
+    margin: 1vw;
+}
+
+.home-special-product-detail {
+    width: 100%;
+    height: 11.3vw;
+    list-style: none;width: 100%;
+    height: 11.3vw;
+    list-style: none;
+    background-color: #121212;
+}
+
+.home-special-product-detail li {
+    margin: 0 -1vw;
+    font-size: 1vw;
+    line-height: 2vw;
+    color: #fff;
+}

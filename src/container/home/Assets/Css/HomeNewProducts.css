@@ -5,11 +5,10 @@
     padding: 2.4vw;
 }
 
-.home-new-products {
+/* .home-new-products {
     width: 100%;
     height: 25vw;
-    /* background-color: aliceblue; */
-}
+} */
 
 .home-new-products-header {
     width: 100%;
@@ -24,6 +23,7 @@
     border-bottom: 0.15vw solid #F1CD6C;
     font-size: 1.4vw;
     color: #F1CD6C;
+    cursor: context-menu;
 }
 
 .home-new-products-view-all {
