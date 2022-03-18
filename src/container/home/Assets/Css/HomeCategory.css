@@ -48,6 +48,72 @@
 
 .home-category-content-btn {
     width: 21.8vw;
-    height: 10vw;
+    height: 11.5vw;
     border: 0.15vw solid #F1CD6C;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.home-category-content-btn:hover 
+.home-category-btn-content {
+    width: 55%;
+    transition: 0.3s;
+}
+
+.home-category-content-btn:hover 
+.home-category-btn-content-pc {
+    transition: 0.3s;
+    margin: 0 1.5vw;
+}
+
+.home-category-btn-title {
+    width: 50%;
+    height: 100%;
+    background-color: #121212;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 1vw;
+}
+
+.home-category-btn-title-p {
+    position: absolute;
+    color: #fff;
+    font-size: 1.4vw;
+    line-height: 2.5vw;
+    z-index: 10;
+    text-transform: uppercase;
+}
+
+.home-category-btn-content {
+    width: 40%;
+    height: 100%;
+    background-color: #F1CD6C;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* .home-category-btn-content:hover {
+    width: 55%;
+    transition: 0.3s;
+} */
+
+/* .home-category-btn-content:hover 
+.home-category-btn-content-pc {
+    transition: 0.3s;
+    margin: 0 1.5vw;
+} */
+
+.home-category-btn-content-pc {
+    height: 9vw;
+    position: absolute;
+    transition: 0.3s;
+    left: -1vw;
 }
