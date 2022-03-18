@@ -13,7 +13,7 @@ function HomeSpecialProducts() {
                     </p>
 
                     <Link to='#' className="home-special-products-view-all">
-                        View all
+                        View More
                     </Link>
                 </div>
 

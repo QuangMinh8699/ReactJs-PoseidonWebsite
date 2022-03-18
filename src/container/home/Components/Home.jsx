@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Assets/Css/Home.css'
+import HomeAboutUs from './HomeAboutUs'
+import HomeAllProducts from './HomeAllProducts'
 import HomeCategory from './HomeCategory'
 import HomeHeader from './HomeHeader'
 import HomeNewProducts from './HomeNewProducts'
@@ -12,6 +14,8 @@ function Home() {
       <HomeCategory />
       <HomeSpecialProducts />
       <HomeNewProducts />
+      <HomeAllProducts />
+      <HomeAboutUs />
     </div>
   )
 }

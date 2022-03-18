@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Assets/Css/HomeNewProducts.css'
+import '../Assets/Css/HomeAllProducts.css'
 import Rtx3080 from '../Assets/Images/nvidia-rtx-3080.png'
 
-function HomeNewProducts() {
+function HomeAllProducts() {
     return (
-        <div className="home-new-products-main">
+        <div className="home-all-products-main">
             <div className="home-new-products">
                 <div className="home-new-products-header">
                     <p className="home-new-products-title">
-                        New Products
+                        All Products
                     </p>
-                    <Link to='/new' className="home-new-products-view-all">
+                    <Link to='/all' className="home-new-products-view-all">
                         View More
                     </Link>
                 </div>
 
                 <div className="home-new-products-content">
-                    <Link to='/new' className="home-new-products-content-product">
+                    <Link to='/all' className="home-new-products-content-product">
                         <img src={Rtx3080} alt="" className="home-new-rtx3080" />
                         <div className="home-new-title">
                             <p className="home-new-title-p">NVIDIA RTX 3080</p>
@@ -31,7 +31,7 @@ function HomeNewProducts() {
                         </ul>
                     </Link>
 
-                    <Link to='/new' className="home-new-products-content-product">
+                    <Link to='/all' className="home-new-products-content-product">
                         <img src={Rtx3080} alt="" className="home-new-rtx3080" />
                         <div className="home-new-title">
                             <p className="home-new-title-p">NVIDIA RTX 3080</p>
@@ -45,7 +45,7 @@ function HomeNewProducts() {
                         </ul>
                     </Link>
 
-                    <Link to='/new' className="home-new-products-content-product">
+                    <Link to='/all' className="home-new-products-content-product">
                         <img src={Rtx3080} alt="" className="home-new-rtx3080" />
                         <div className="home-new-title">
                             <p className="home-new-title-p">NVIDIA RTX 3080</p>
@@ -59,7 +59,7 @@ function HomeNewProducts() {
                         </ul>
                     </Link>
 
-                    <Link to='/new' className="home-new-products-content-product">
+                    <Link to='/all' className="home-new-products-content-product">
                         <img src={Rtx3080} alt="" className="home-new-rtx3080" />
                         <div className="home-new-title">
                             <p className="home-new-title-p">NVIDIA RTX 3080</p>
@@ -79,4 +79,4 @@ function HomeNewProducts() {
     )
 }
 
-export default HomeNewProducts
+export default HomeAllProducts
