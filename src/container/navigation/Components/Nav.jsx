@@ -19,10 +19,10 @@ function Nav() {
           <Link to="/faqs" className="navigation-button-input">FAQs</Link>
         </ul>
         <div className="navigation-search-main">
-          <i class="bi bi-search">
+          <i className="bi bi-search">
             <div className='hello'></div>
           </i>
-          <Link to='/cart'><i class="bi bi-cart2"></i></Link>
+          <Link to='/cart'><i className="bi bi-cart2"></i></Link>
         </div>
       </div>
     </div>

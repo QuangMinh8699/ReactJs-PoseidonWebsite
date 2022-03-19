@@ -29,7 +29,12 @@ function HomeCategory() {
                                 Gaming Workstation
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Pc} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -40,7 +45,12 @@ function HomeCategory() {
                                 Gaming Laptop
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Laptop} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -51,7 +61,12 @@ function HomeCategory() {
                                 parts of computer
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Parts} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -62,7 +77,12 @@ function HomeCategory() {
                                 Gaming Gear
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Gear} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -73,7 +93,12 @@ function HomeCategory() {
                                 computer screen
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Screen} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -84,7 +109,12 @@ function HomeCategory() {
                                 Gaming Char
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Char} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -95,7 +125,12 @@ function HomeCategory() {
                                 cooling accessories
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Cooling} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
@@ -106,7 +141,12 @@ function HomeCategory() {
                                 network equipment
                             </p>
                         </div>
-                        <div className="home-category-btn-content">
+                        <div className="home-category-btn-content"
+                            style={{
+                                backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
+                                color: "darkred",
+                            }}
+                        >
                             <img src={Wifi} alt="" className="home-category-btn-content-pc" />
                         </div>
                     </Link>
