@@ -26,7 +26,7 @@ function HomeAboutUs() {
                     </div>
                     <div className="home-about-us-content-content"
                         style={{
-                            backgroundImage: "linear-gradient(to left ,#F1CD6C, #EDD185)",
+                            backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
                             color: "darkred",
                         }}
                     >

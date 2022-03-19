@@ -10,6 +10,9 @@ function HomeBrands() {
                         Brands
                     </p>
                 </div>
+                <div className="home-brands-content">
+                    
+                </div>
             </div>
         </div>
     )
