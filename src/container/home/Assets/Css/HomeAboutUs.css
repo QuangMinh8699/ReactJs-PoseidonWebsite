@@ -11,7 +11,7 @@
     background-color: #F1CD6C;
     margin: 1vw 0;
     display: flex;
-    border: 0.15vw solid #F1CD6C;
+    border: 0.16vw solid #F1CD6C;
 }
 
 .home-about-us-content-header {
@@ -26,7 +26,6 @@
 .home-about-us-content-header-inside {
     width: 90%;
     height: 80%;
-    background-color: aliceblue;
 }
 
 .home-about-us-content-content {
@@ -41,4 +40,16 @@
 
 .home-about-us-content-pic {
     width: 23vw;
+}
+
+.home-about-us-content-header-title {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #F1CD6C;
+}
+
+.home-about-us-header-content {
+    font-size: 1.4vw;
+    color: #fff;
+    line-height: 3vw;
 }
