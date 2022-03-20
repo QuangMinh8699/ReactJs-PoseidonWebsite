@@ -30,22 +30,26 @@ function HomeBrands() {
         Tnc,
     ];
 
-    let i = 2;
+    let i = 0;
+
 
     const plus = () => {
-        i++;
-        if (i > brandsArray.length) {
-            i = 0;
+        let status = false;
+        if (onclick) {
+            status = true;
+            console.log("Hello")
         }
-        console.log(i)
+        console.log("Hello")
+
+        return status;
     }
 
     const minus = () => {
-        i--;
-        if (i < brandsArray.length) {
-            i = 0;
+        let status = false;
+        if (onclick) {
+            status = true;
         }
-        console.log(i)
+        return status;
     }
 
     return (
@@ -72,7 +76,7 @@ function HomeBrands() {
                     </div>
 
                     <div className="home-content-brands">
-                        <img className='home-content-brands-img' src={brandsArray[1]} alt="" />
+                        <img className='home-content-brands-img' src={brandsArray[2]} alt="" />
                     </div>
 
                     {/* right */}
