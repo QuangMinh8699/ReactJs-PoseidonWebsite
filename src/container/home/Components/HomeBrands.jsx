@@ -30,27 +30,6 @@ function HomeBrands() {
         Tnc,
     ];
 
-    let i = 0;
-
-
-    const plus = () => {
-        let status = false;
-        if (onclick) {
-            status = true;
-            console.log("Hello")
-        }
-        console.log("Hello")
-
-        return status;
-    }
-
-    const minus = () => {
-        let status = false;
-        if (onclick) {
-            status = true;
-        }
-        return status;
-    }
 
     return (
         <div className="home-brands-main">
@@ -62,31 +41,27 @@ function HomeBrands() {
                 </div>
                 <div className="home-brands-content">
 
-                    {/* left */}
                     <div className="home-brands-content-btn  home-brands-content-btn-minus"
                         style={{
                             backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
                             color: "darkred",
                         }}
 
-                        onClick={minus}
-                        
+
                     >
                         <i className="home-brands-content-btn-chevron bi bi-chevron-left"></i>
                     </div>
 
                     <div className="home-content-brands">
-                        <img className='home-content-brands-img' src={brandsArray[2]} alt="" />
+                        {/* <img className='home-content-brands-img' src={brandsArray[1]}/> */}
                     </div>
 
-                    {/* right */}
                     <div className="home-brands-content-btn  home-brands-content-btn-plus"
                         style={{
                             backgroundImage: "linear-gradient(to left ,#F1CD6C, #f3dd9f)",
                             color: "darkred",
                         }}
 
-                        onClick={plus}
                     >
                         <i className="home-brands-content-btn-chevron bi bi-chevron-right"></i>
                     </div>

@@ -1,8 +1,13 @@
 import React from 'react'
+import '../Assets/Css/Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className="footer-main">
+      <div className="footer">
+
+      </div>
+    </div>
   )
 }
 

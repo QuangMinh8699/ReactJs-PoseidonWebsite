@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../footer/Components/Footer'
 import '../Assets/Css/Home.css'
 import HomeAboutUs from './HomeAboutUs'
 import HomeAllProducts from './HomeAllProducts'
@@ -18,6 +19,7 @@ function Home() {
       <HomeAllProducts />
       <HomeAboutUs />
       <HomeBrands />
+      <Footer />
     </div>
   )
 }
