@@ -1,60 +1,36 @@
 .home-brands-main {
-    width: 99.2vw;
-    height: 35vw;
+    width: 100%;
+    height: 22vw;
     background-color: #121212;
     padding: 2.4vw;
 }
 
-.home-brands-header {
+.home-brands {
     width: 100%;
-    height: 4vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.home-brands-header-title {
-    border-bottom: 0.16vw solid #F1CD6C;
-    font-size: 1.4vw;
-    color: #F1CD6C;
-    cursor: context-menu;
-}
-
-.home-brands-content {
-    margin: 1vw 0;
-    width: 100%;
-    height: 20vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.home-brands-content-btn {
-    width: 5vw;
-    height: 5vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
-.home-brands-content-btn-chevron {
-    color: #121212;
-    font-size: 2.5vw;
-    font-weight: 600;
-}
-
-.home-content-brands {
+.home-brands-slider {
     border: 0.16vw solid #F1CD6C;
-    width: 83%;
-    height: 77%;
+    width: 80vw;
+    height: 13vw;
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    /* overflow-x: hidden; */
-    overflow-y: hidden;
 }
 
-.home-content-brands-img {
-    width: 16vw;
-    margin: 1.7vw;
+.home-brands-logo {
+    width: 10vw;
+    text-align: center;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: '';
+}
+
+.home-brands-prev-btn-icon {
+    font-size: 2vw;
 }
