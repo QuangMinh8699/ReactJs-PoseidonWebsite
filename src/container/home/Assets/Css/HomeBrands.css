@@ -19,11 +19,11 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    user-select: none;
 }
 
 .home-brands-logo {
     width: 10vw;
-    text-align: center;
 }
 
 .slick-next:before,

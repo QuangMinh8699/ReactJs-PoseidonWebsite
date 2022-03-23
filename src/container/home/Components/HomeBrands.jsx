@@ -5,14 +5,12 @@ import Asus from '../Assets/Images/asus.png'
 import Hp from '../Assets/Images/hp.png'
 import Akko from '../Assets/Images/akko.png'
 import Amd from '../Assets/Images/amd.jpg'
-import AsRock from '../Assets/Images/asrock.jpg'
 import Acer from '../Assets/Images/acer.png'
 import Dell from '../Assets/Images/dell.png'
-import DeepCool from '../Assets/Images/deepcool.jpg'
+import DeepCool from '../Assets/Images/deep-cool.png'
 import Dareu from '../Assets/Images/dareu.png'
 import Corsair from '../Assets/Images/corsair.png'
 import Gs from '../Assets/Images/gskill.jpg'
-import Tnc from '../Assets/Images/tnc.png'
 
 const PrevButton = ({ currentSlide, slideCount, ...props }) => (
     <>
@@ -97,13 +95,6 @@ function HomeBrands() {
                         />
                     </div>
                     <div className='home-brands-slider-item'>
-                        <img src={AsRock} alt="" className="home-brands-logo"
-                            style={{
-                                display: 'inline',
-                            }}
-                        />
-                    </div>
-                    <div className='home-brands-slider-item'>
                         <img src={Asus} alt="" className="home-brands-logo"
                             style={{
                                 display: 'inline',
@@ -121,6 +112,7 @@ function HomeBrands() {
                         <img src={Dareu} alt="" className="home-brands-logo"
                             style={{
                                 display: 'inline',
+                                alignItems: 'center',
                             }}
                         />
                     </div>
@@ -147,13 +139,6 @@ function HomeBrands() {
                     </div>
                     <div className='home-brands-slider-item'>
                         <img src={Gs} alt="" className="home-brands-logo"
-                            style={{
-                                display: 'inline',
-                            }}
-                        />
-                    </div>
-                    <div className='home-brands-slider-item'>
-                        <img src={Tnc} alt="" className="home-brands-logo"
                             style={{
                                 display: 'inline',
                             }}
