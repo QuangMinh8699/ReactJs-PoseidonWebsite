@@ -5,3 +5,38 @@
     border-top: 0.16vw solid #F1CD6C;
     padding: 2.4vw;
 }
+
+.footer {
+    margin: 0 2vw;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    padding: 0;
+}
+
+.footer-content-text {
+    list-style: none;
+    line-height: 2.5vw;
+    color: #fff;
+    transition: 0.25s;
+    font-size: 1.1vw;
+}
+
+.footer-content-text:hover {
+    cursor: pointer;
+    transition: 0.25s;
+    color: #F1CD6C;
+}
+
+.footer-content-text-header {
+    color: #F1CD6C;  
+    font-size: 1.4vw; 
+    margin-bottom: 0.5vw;
+}
+
+.footer-content-text-header:hover {
+    cursor: context-menu;
+}

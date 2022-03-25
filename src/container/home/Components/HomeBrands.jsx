@@ -27,7 +27,7 @@ const PrevButton = ({ currentSlide, slideCount, ...props }) => (
                 alignItems: 'center',
             }}
         >
-            <i class="home-brands-prev-btn-icon bi bi-chevron-left"></i>
+            <i className="home-brands-prev-btn-icon bi bi-chevron-left"></i>
         </div>
     </>
 );
@@ -47,7 +47,7 @@ const NextButton = ({ currentSlide, slideCount, ...props }) => (
             alignItems: 'center',
         }}
     >
-        <i class="home-brands-prev-btn-icon bi bi-chevron-right"></i>
+        <i className="home-brands-prev-btn-icon bi bi-chevron-right"></i>
     </div>
 );
 
@@ -61,6 +61,9 @@ function HomeBrands() {
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
+        focusOnChange: false,
+        pauseOnHover: false,
+        dots: false,
         nextArrow: <NextButton />,
         prevArrow: <PrevButton />
     };
