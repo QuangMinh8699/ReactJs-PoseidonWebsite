@@ -63,6 +63,15 @@ function Footer() {
           </li>
         </ul>
       </div>
+
+      <div className="footer-bottom">
+        <div className="footer-bottom-slogan">©2022 Poseidon - The best supplier of computer components and services in Viet Nam</div>
+        <div className="footer-bottom-social-media">
+          <i class="footer-bottom-icon bi bi-facebook"></i>
+          <i class="footer-bottom-icon bi bi-instagram"></i>
+          <i class="footer-bottom-icon bi bi-twitter"></i>
+        </div>
+      </div>
     </div>
   )
 }
