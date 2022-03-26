@@ -1,0 +1,7 @@
+.new-products-content {
+    width: 100%;
+    height: 100vw;
+    background-color: #121212;
+    display: flex;
+    padding: 4.5vw 2.4vw;
+}
