@@ -4,19 +4,17 @@ import '../Assets/Css/NewProductsCategory.css'
 
 function NewProductsCategory() {
 
-    const [translateY, setTranslateY] = useState('');
-    const [rotate, setRotate] = useState('');
+    const [display1, setDisplay] = useState('block');
+    const [rotate, setRotate] = useState('rotate(90deg)');
 
     const handleChangeDisplay = () => {
-        setTranslateY('translateY(0vw)')
+        setDisplay('block')
         setRotate('rotate(90deg)')
 
-        if (translateY == 'translateY(0vw)' && rotate == 'rotate(90deg)') {
-            setTranslateY('translateY(-23vw)')
+        if (display1 == 'block' && rotate == 'rotate(90deg)') {
+            setDisplay('none')
             setRotate('none')
         }
-
-
     }
 
     return (
@@ -40,21 +38,21 @@ function NewProductsCategory() {
                     ></i>
                 </div>
 
-                <div className="new-products-category-content">
-                    <ul className="new-products-category-ul"
-                        style={{
-                            transform: translateY,
-                            transition: '0.25s',
-                        }}
-                    >
-                        <Link className="new-products-category-li" to='/new'><li >GAMING WORKSTATION</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >GAMING LAPTOP</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >PARTS OF COMPUTER</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >GAMING GEAR</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >COMPUTER SCREEN</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >GAMING CHAR</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >COOLING ACCESSORIES</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >NETWORK EQUIPMENT</li></Link>
+                <div className="new-products-category-content"
+                    style={{
+                        display: display1,
+                        transition: '0.25s',
+                    }}
+                >
+                    <ul className="new-products-category-ul">
+                        <Link className="new-products-category-li" to='/new'><li >gaming workstation</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >gaming laptop</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >parts of computer</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >gaming gear</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >computer screen</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >gaming char</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >cooling accessories</li></Link>
+                        <Link className="new-products-category-li" to='/new'><li >network equipment</li></Link>
                     </ul>
                 </div>
             </div>

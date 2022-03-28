@@ -24,14 +24,13 @@
     overflow-y: hidden;
     height: 24vw;
     margin-top: -1vw;
+    display: none;
 }
 
 .new-products-category-ul {
     height: 20vw;
     color: #fff;
     transition: 0.25s;
-    /* display: none; */
-    transform: translateY(-23vw);
 }
 
 .new-products-category-li {
@@ -43,6 +42,7 @@
     text-decoration: none;
     outline: none;
     transition: 0.25s;
+    text-transform: capitalize;
 }
 
 .new-products-category-li:hover {

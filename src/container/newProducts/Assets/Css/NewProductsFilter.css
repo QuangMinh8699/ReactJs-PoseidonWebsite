@@ -1,0 +1,53 @@
+.new-products-filter-main {
+    width: 100%;
+    height: 3vw;
+}
+
+.new-products-filter-content {
+    height: 100%;
+    margin: 1vw;
+}
+
+.new-products-filter-content-min-price-title,
+.new-products-filter-content-max-price-title {
+    color: #fff;
+    font-size: 1.1vw;
+    margin: 0 1vw;
+    text-transform: capitalize;
+}
+
+.new-products-filter-content-range {
+    margin: 0.25vw 0 1vw 0;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1.2vw;
+    background: #fff;
+    -webkit-transition: 0.25s;
+    transition: opacity 0.25s;
+}
+
+.new-products-filter-content-range:hover {
+    opacity: 1;
+}
+  
+.new-products-filter-content-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.2vw;
+    height: 1.2vw;
+    background: #F1CD6C;
+    cursor: pointer;
+}
+  
+.new-products-filter-content-range::-moz-range-thumb {
+    width: 20vw;
+    height: 220vw;
+    background: #F1CD6C;
+    cursor: pointer;
+}
+
+.min-max-price-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
