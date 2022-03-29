@@ -54,7 +54,7 @@ function NewProductsFilter() {
 
                     <div className="min-max-price-header">
                         <span className="new-products-filter-content-max-price-title">max price</span>
-                        <span className="new-products-filter-content-max-price-title">{maxPrice}$</span>
+                        <span className="new-products-filter-content-max-price-title">{maxPrice}$</span> 
                     </div>
                     <input type="range" class="new-products-filter-content-range" min="1" max="20000" id="max-price"
                         value={maxPrice}
