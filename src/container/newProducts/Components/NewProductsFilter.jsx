@@ -12,7 +12,7 @@ function NewProductsFilter() {
         setDisplay('block')
         setRotate('rotate(90deg)')
 
-        if (display1 == 'block' && rotate == 'rotate(90deg)') {
+        if (display1 === 'block' && rotate === 'rotate(90deg)') {
             setDisplay('none')
             setRotate('none')
         }
@@ -58,7 +58,7 @@ function NewProductsFilter() {
                     </div>
                     <input type="range" class="new-products-filter-content-range" min="1" max="20000" id="max-price"
                         value={maxPrice}
-                        onChange={e => setMaxPrice(e.target.value)}
+                        onChange={e => setMaxPrice(e.target.value)} 
                     />
                 </form>
             </div>
