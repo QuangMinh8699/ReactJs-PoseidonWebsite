@@ -1,5 +1,8 @@
 .new-products-side-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     width: 20vw;
-    border: 0.16vw solid #F1CD6C;
+    margin: 0 -1vw;
 }
 
