@@ -1,8 +1,14 @@
 .new-products-side-bar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 7vw;
     width: 20vw;
     margin: 0 -1vw;
 }
 
+.side-bar-footer {
+    width: 10vw;
+    height: 8.2vw;
+    user-select: none;
+    outline: none;
+}

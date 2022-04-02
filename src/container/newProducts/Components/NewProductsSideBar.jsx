@@ -8,6 +8,7 @@ function NewProductsSideBar() {
     <div className="new-products-side-bar">
       <NewProductsCategory />
       <NewProductsFilter />
+      <div className="side-bar-footer"></div>
     </div>
   )
 }

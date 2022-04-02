@@ -5,7 +5,10 @@ import NewProductsSideBar from './NewProductsSideBar'
 function NewProductsContent() {
   return (
     <div className="new-products-content">
-      <NewProductsSideBar />
+      <div className="new-products-side-bar-main">
+        <NewProductsSideBar />
+      </div>
+      <div className="new-products"></div>
     </div>
   )
 }
