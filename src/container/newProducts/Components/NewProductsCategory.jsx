@@ -17,7 +17,7 @@ function NewProductsCategory() {
         }
     }
 
-    return (
+    return ( 
         <div className="new-products-category-main">
             <div className="new-products-category">
                 <div className="new-products-category-header"
