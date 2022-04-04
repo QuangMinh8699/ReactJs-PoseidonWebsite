@@ -6,8 +6,9 @@
     padding: 2.4vw 2.4vw 5vw 2.4vw;
 }
 
-.new-products {
+.new-products-right {
     width: 100%;
     height: 100%;
+    margin: 0 0 0 1vw;
     background-color: aqua;
 }

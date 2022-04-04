@@ -8,7 +8,9 @@ function NewProductsContent() {
       <div className="new-products-side-bar-main">
         <NewProductsSideBar />
       </div>
-      <div className="new-products"></div>
+      <div className="new-products-right">
+
+      </div>
     </div>
   )
 }

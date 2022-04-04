@@ -11,7 +11,7 @@ function NewProductsCategory() {
         setDisplay('block')
         setRotate('rotate(90deg)')
 
-        if (display1 == 'block' && rotate == 'rotate(90deg)') {
+        if (display1 === 'block' && rotate === 'rotate(90deg)') {
             setDisplay('none')
             setRotate('none')
         }
