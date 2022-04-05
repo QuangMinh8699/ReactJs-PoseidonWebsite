@@ -30,7 +30,7 @@ function NewProductsFilter() {
                     <p className="new-products-category-header-p">
                         PRICE
                     </p>
-                    <i class="new-products-category-header-icon bi bi-chevron-right"
+                    <i className="new-products-category-header-icon bi bi-chevron-right"
                         style={{
                             transform: rotate,
                             transition: '0.25s',
@@ -47,7 +47,7 @@ function NewProductsFilter() {
                         <span className="new-products-filter-content-min-price-title">min price</span>
                         <span className="new-products-filter-content-min-price-title">{minPrice}$</span>
                     </div>
-                    <input type="range" class="new-products-filter-content-range" min="0" max="19999" id="min-price"
+                    <input type="range" className="new-products-filter-content-range" min="0" max="19999" id="min-price"
                         value={minPrice}
                         onChange={e => setMinPrice(e.target.value)}
                     />
@@ -56,7 +56,7 @@ function NewProductsFilter() {
                         <span className="new-products-filter-content-max-price-title">max price</span>
                         <span className="new-products-filter-content-max-price-title">{maxPrice}$</span> 
                     </div>
-                    <input type="range" class="new-products-filter-content-range" min="1" max="20000" id="max-price"
+                    <input type="range" className="new-products-filter-content-range" min="1" max="20000" id="max-price"
                         value={maxPrice}
                         onChange={e => setMaxPrice(e.target.value)} 
                     />

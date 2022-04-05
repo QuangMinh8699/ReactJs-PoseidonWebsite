@@ -30,7 +30,7 @@ function NewProductsCategory() {
                     <p className="new-products-category-header-p">
                         CATEGORY
                     </p>
-                    <i class="new-products-category-header-icon bi bi-chevron-right"
+                    <i className="new-products-category-header-icon bi bi-chevron-right"
                         style={{
                             transform: rotate,
                             transition: '0.25s',

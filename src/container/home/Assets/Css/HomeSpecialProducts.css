@@ -106,6 +106,7 @@
 
 .home-special-product-detail li {
     margin: 0 -1vw;
+    width: 100%;
     font-size: 1vw;
     line-height: 2vw;
     color: #fff;
