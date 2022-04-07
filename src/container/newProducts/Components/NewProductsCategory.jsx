@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import '../Assets/Css/NewProductsCategory.css'
 
 function NewProductsCategory() {
@@ -45,14 +45,14 @@ function NewProductsCategory() {
                     }}
                 >
                     <ul className="new-products-category-ul">
-                        <Link className="new-products-category-li" to='/new'><li >gaming workstation</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >gaming laptop</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >parts of computer</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >gaming gear</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >computer screen</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >gaming char</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >cooling accessories</li></Link>
-                        <Link className="new-products-category-li" to='/new'><li >network equipment</li></Link>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-workstation-id'><li >gaming workstation</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-laptop-id'><li >gaming laptop</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-parts-id'><li >parts of computer</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-gear-id'><li >gaming gear</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-screen-id'><li >computer screen</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-char-id'><li >gaming char</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-cooling-id'><li >cooling accessories</li></a>
+                        <a className="new-products-category-li" href='#new-products-content-right-gaming-network-id'><li >network equipment</li></a>
                     </ul>
                 </div>
             </div>

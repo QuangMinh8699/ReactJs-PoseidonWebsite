@@ -1,20 +1,17 @@
 .new-products-content-right {
     margin: 0 0 0 3.5vw;
     width: 93%;
+    /* scroll-behavior: smooth; */
 }
 
-/* .new-products-content-right-gaming-workstation {
-    margin-bottom: 5vw;
-} */
-
-.new-products-content-right-gaming-workstation-header {
+.new-products-content-right-gaming-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 4vw;
 }
 
-.new-products-content-right-gaming-workstation-title {
+.new-products-content-right-gaming-title {
     color: #F1CD6C;
     font-size: 1.4vw;
     cursor: context-menu;
@@ -22,7 +19,7 @@
     align-self: center;
 }
 
-.new-products-content-right-gaming-workstation-content {
+.new-products-content-right-gaming-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -30,13 +27,49 @@
     flex-direction: row;
 }
 
-.new-products-gaming-workstation-products {
+.new-products-gaming-products {
     width: 21.8vw;
     height: 28vw;
     border: 0.16vw solid #F1CD6C;
     text-decoration: none;
 }
 
-.new-products-content-right-gaming-laptop {
+.new-products-content-right-gaming-top {
+	scroll-margin-top: 7.5vw;
+}
+
+.new-products-content-right-gaming
+{
+	scroll-margin-top: 7.5vw;
     margin-top: 3vw;
+}
+
+.new-products-gaming-products-image {
+    width: 100%;
+    border-bottom: 0.16vw solid #F1CD6C;
+}
+
+.new-products-gaming-products-title {
+    display: flex;
+    width: 100%;
+}
+
+.new-products-gaming-products-p {
+    font-size: 1.4vw;
+    color: #F1CD6C;
+    margin: 1vw;
+}
+
+.new-products-gaming-products-ul {
+    width: 100%;
+    height: 11.3vw;
+    list-style: none; 
+}
+
+.new-products-gaming-products-li {
+    margin: 0 -1vw;
+    font-size: 1vw;
+    line-height: 2vw;
+    width: 100%;
+    color: #fff;
 }

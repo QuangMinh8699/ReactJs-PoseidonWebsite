@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './container/navigation/Components/Nav';
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './container/home/Components/Home';
@@ -12,10 +12,12 @@ import Reviews from './container/reviews/Components/Reviews';
 import Contact from './container/contact/Components/Contact';
 import Faqs from './container/faqs/Components/Faqs';
 import Cart from './container/cart/Components/Cart';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="app-nav">
         <Nav />
       </div>
