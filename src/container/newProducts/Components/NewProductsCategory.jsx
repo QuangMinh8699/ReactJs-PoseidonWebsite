@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { a } from 'react-router-dom';
 import '../Assets/Css/NewProductsCategory.css'
 
 function NewProductsCategory() {
